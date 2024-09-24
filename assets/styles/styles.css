@@ -1,0 +1,24 @@
+/* An asterisk means everything. */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: gold;
+    color: black;
+    font-size: 18px;
+}
+.headers {
+    font-family: "Press Start 2P";
+    color: blue;
+}
+a{
+    color: #3d96b7;
+    text-decoration: none;
+}
+a:hover {
+    color: navy;
+}
+a:visited {
+    color: purple;
+}
