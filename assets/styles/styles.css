@@ -8,6 +8,7 @@ body {
     color: black;
     font-size: 18px;
 }
+/*Use . for a class.*/
 .headers {
     font-family: "Press Start 2P";
     color: blue;
@@ -21,4 +22,48 @@ a:hover {
 }
 a:visited {
     color: purple;
+}
+#newsletform {
+    float: right;
+}
+.articleDate {
+    font-size: 16px;
+    color: navy;
+}
+/* Use # for an id. */
+#newslettersub {
+    background-color: green;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#newslettersub h2 {
+    color: red;
+}
+p {
+    font-family: "Consolas";
+}
+/*.relatedArticlesFlex {
+    display: flex;
+}*/
+.relatedArticlesGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+#one {
+    /* The first value is where it starts on the grid,
+    and the second value is how much it spans. */
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+}
+#two {
+    grid-column: 1 / span 1;
+    grid-row: 2/ span 1;
+}
+#three {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
 }
