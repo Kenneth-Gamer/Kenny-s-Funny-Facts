@@ -11,7 +11,28 @@
 </head>
 <body>
     <header>
-        <nav></nav>
+        <nav>
+            <a class = "logo" href = "index.html">Logo or Title</a>
+            <!-- Direct children should only be list items. -->
+            <menu id = "main-menu">
+                <li>
+                    <a href = "index.html">Link to main page</a>
+                </li>
+                <li class = "dropdown-trigger">
+                    <button>Fact Sheet Links
+                        <svg viewBox="5 5 14 14" width="30px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Arrow / Caret_Down_SM"> <path id="Vector" d="M15 11L12 14L9 11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
+                    </button>
+                    <menu class="dropdown">
+                        <li>
+                            <a href = "factsheet1.html">Some Juicy Information</a>
+                        </li>
+                        <li>
+                            <a href = "factsheet2.html">More Information</a>
+                        </li>
+                    </menu>
+                </li> 
+            </menu>
+        </nav>
     </header>
     <main>
         <article>
@@ -98,8 +119,8 @@
             </div>
         </section>
     </main>
-    <a href = "index.html">Back to homepage...<br></a>
+    <!-- <a href = "index.html">Back to homepage...<br></a>
     <a href = "factsheet1.html">Still curious? Click here...<br></a>
-    <a href = "factsheet2.html">...or here to read some juicy information!<br></a>
+    <a href = "factsheet2.html">...or here to read some juicy information!<br></a> -->
 </body>
 </html>

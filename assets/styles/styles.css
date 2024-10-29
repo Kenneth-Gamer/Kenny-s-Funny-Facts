@@ -67,3 +67,28 @@ p {
     grid-column: 2 / span 1;
     grid-row: 2 / span 1;
 }
+/* main header navigation */
+header nav menu li {
+    list-style: none;
+}
+header nav {
+    display: flex;
+    justify-content: space-around;
+}
+header nav menu#main-menu{
+    display:flex;
+}
+header nav menu.dropdown {
+    display: none;
+}
+header nav .dropdown-trigger:hover menu.dropdown{
+    background-color: red;
+    display: block;
+    position: absolute;
+}
+nav button{
+    background-color: transparent;
+    border: 0;
+    font-family: "Consolas";
+    color: #123456
+}
