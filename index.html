@@ -1,10 +1,38 @@
 <!DOCTYPE html> <!-- Always start the file with this so-called "preamble."-->
 <html lang="en">
     <head> <!-- This is where all of the "metadata" about the page goes.-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>The Big Site of Fun Facts: A Wiki About No Particular Topic</title>
+        <link rel="stylesheet" href="assets\styles\styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
     </head>
     <body> <!--All of the content that is visible on your website should go here.-->
-        <h1>The Big Site of Fun Facts</h1>
+        <header>
+            <nav>
+                <a class = "logo" href = "index.html">Logo or Title</a>
+                <!-- Direct children should only be list items. -->
+                <menu id = "main-menu">
+                    <li>
+                        <a href = "index.html">Link to main page</a>
+                    </li>
+                    <li class = "dropdown-trigger">
+                        <button>Fact Sheet Links
+                            <svg viewBox="5 5 14 14" width="30px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Arrow / Caret_Down_SM"> <path id="Vector" d="M15 11L12 14L9 11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
+                        </button>
+                        <menu class="dropdown">
+                            <li>
+                                <a href = "factsheet1.html">Some Juicy Information</a>
+                            </li>
+                            <li>
+                                <a href = "factsheet2.html">More Information</a>
+                            </li>
+                        </menu>
+                    </li> 
+                </menu>
+            </nav>
+        </header>
+        <h1 class = "headers">The Big Site of Fun Facts</h1>
         <p>This website exists to <b>provide information</b> about <br><i>general topics</i> (mostly games) that <u>I like</u>.</p>
         <a href="https://www.nintendo.com">Go to Nintendo, my favorite game company...</a><br>
         <a href = "blog.html">Or read something that <i>I</i> actually wrote...</a><br>
