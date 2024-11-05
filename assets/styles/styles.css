@@ -20,6 +20,9 @@ a{
 a:hover {
     color: navy;
 }
+a:visited:hover {
+    color: hotpink
+}
 a:visited {
     color: purple;
 }
@@ -91,4 +94,21 @@ nav button{
     border: 0;
     font-family: "Consolas";
     color: #123456
+}
+#mobile-menu-button {
+    display: none;
+}
+/* Media query time! */
+@media (max-width: 500px) {
+    p {
+        font-family: "Verdana";
+    }
+}
+@media (max-width: 640px) {
+    #mobile-menu-button {
+        display: block;
+    }
+    header nav menu#main-menu{
+        display:none;
+    }
 }
