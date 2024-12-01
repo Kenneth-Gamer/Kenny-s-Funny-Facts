@@ -94,7 +94,7 @@ nav button{
     background-color: transparent;
     border: 0;
     font-family: "Consolas";
-    color: #123456
+    color: red;
 }
 #mobile-menu-button {
     display: none;
