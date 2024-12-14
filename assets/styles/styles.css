@@ -35,7 +35,7 @@ a:visited {
 }
 /* Use # for an id. */
 #newslettersub {
-    background-color: green;
+    background-color: #00DA00;
     padding: 10px;
     padding-top: 10px;
     padding-bottom: 20px;
@@ -44,7 +44,7 @@ a:visited {
     margin: 20px;
 }
 #newslettersub h2 {
-    color: red;
+    color: #0101ff;
 }
 p {
     font-family: "Consolas";
